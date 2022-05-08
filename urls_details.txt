@@ -1,0 +1,14 @@
+List and Add Special Offers
+http://127.0.0.1:8000/offers/specialoffer/
+
+View. Update and Delete Specific Special Offer
+http://127.0.0.1:8000/offers/specialoffer/
+
+Add Voucher for Specific user and Special Offer
+http://127.0.0.1:8000/offers/<int:special_offer_id>/voucher_code-create/<int:user_id>/
+
+List all Vouchers Customer Specific
+http://127.0.0.1:8000/offers/<int:pk>/voucher_codes/
+
+Voucher Code Detail, Update and Delete
+http://127.0.0.1:8000/offers/voucher_code/<int:pk>/
